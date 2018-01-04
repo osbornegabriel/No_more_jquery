@@ -6,10 +6,12 @@ $(document).ready(function(){
 })
 
 soCool = function(){
-  // var p = document.getElementsByTagName('p');
-  var p = document.querySelector('p');
+  var p = document.getElementsByTagName('p');
+  // var p = document.querySelector('p');
   console.log(p);
-  p.style.color = "red"
+  for(var i = 0; i < p.length; i ++){
+    p[i].style.color = "red"
+  }
 }
 
 lessCool = function(){
