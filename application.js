@@ -6,5 +6,12 @@ $(document).ready(function(){
 })
 
 soCool = function(){
-  $('p').css("color", "red");
+  // var p = document.getElementsByTagName('p');
+  var p = document.querySelector('p');
+  console.log(p);
+  p.style.color = "red"
+}
+
+lessCool = function(){
+  $('h4').css('style', 'italic');
 }
